@@ -1,0 +1,10 @@
+.btn-primary {
+  width: 100%;
+  border-radius: 0;
+  background-color: #4AAAA4;
+  border: none;
+}
+
+.card-body {
+  padding: 0;
+}

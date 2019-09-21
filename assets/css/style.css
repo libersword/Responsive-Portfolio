@@ -1,0 +1,56 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #ccc url('../images/trees.png') repeat 0 0;
+}
+
+/*NAVBAR*/
+.navbar {
+  width: 960px;
+  margin: 0 auto;
+  height: 80px;
+}
+
+.navbar-outer {
+  width: 100%;
+  background-color: #f8f9fa;
+  border-bottom: 3px solid #4AAAA4;
+  position: relative;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+  background-color: #4AAAA4;
+  position: absolute;
+  bottom: 0;
+}
+
+.name-nav {
+  background-color: #4AAAA4;
+  bottom: 0;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.img-thumbnail {
+  width: 200px;
+  height: 200px;
+}
+.jumbotron {
+  background-color: #fff;
+}
+
+/*Typography*/
+h1 {
+  font-size: 32px;
+  color: #4AAAA4;
+  font-weight: bold;
+}
+
+.about-paragraph {
+  font-size: 13px;
+  line-height: 20px;
+  color: #777777;
+}
