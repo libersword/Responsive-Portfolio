@@ -1,0 +1,130 @@
+/*GENERAL STYLING*/
+* {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    background: #ccc url('../images/trees.png') repeat 0 0;
+}
+
+/*HEADER STYLING*/
+
+header {
+    width: 100%;
+    background-color: white;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #cccccc;
+    z-index: 999;
+}
+
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    height: 100px;
+    position: relative;
+    bottom: 0;
+}
+
+.name {
+    float: left;
+    background-color: #4aaaa5;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+.name h1 {
+    font-size: 28px;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nav-links {
+    float: right;
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.nav-item a {
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.spacer {
+    width: 100%;
+    height: 100px;
+}
+
+/* END HEADER STYLING*/
+/*CONTENT STYLING*/
+
+.content-wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-me{
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 25px 20px;
+    box-sizing: border-box;
+}
+
+.about-me h1 {
+    color: #4aaaa5;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.about-me-img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+.about-paragraph {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+hr {
+    color: #dddddd;
+    margin: 20px 0;
+}
+/* END CONTENT STYLING*/
+
+/* FOOTER CONTENT STYLING */
+
+footer {
+    background-color: #666666;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 6px solid #4aaaa5;
+}
+
+footer p {
+    color: white;
+    line-height: 50px;
+}

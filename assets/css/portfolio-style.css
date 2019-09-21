@@ -1,0 +1,43 @@
+.portfolio {  
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 25px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.portfolio-img {
+  width: auto;
+  height: 200px;
+  float: left;
+}
+
+.portfolio h1 {
+  color: #4aaaa5;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.portfolio-list {
+  width: 70%;
+}
+
+.port-item {
+  float:left;
+  margin: 10px 20px;
+  position: relative;
+}
+
+.caption {
+  background-color: #4aaaa590;
+    height: 40px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+.port-item p {
+  color: #ffffff;
+  text-align: center;
+  line-height: 40px;
+}
