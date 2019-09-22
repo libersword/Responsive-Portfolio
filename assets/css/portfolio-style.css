@@ -41,3 +41,33 @@
   text-align: center;
   line-height: 40px;
 }
+
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 980px) {
+  .portfolio-list {
+    width: 100%;
+  }
+
+  .portfolio {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .portfolio {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .port-item {
+    float: none;
+  }
+
+  .portfolio-img {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+}

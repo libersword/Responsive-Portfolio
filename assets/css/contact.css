@@ -16,12 +16,14 @@ input {
   width: 100%;
     height: 20px;
     margin: 10px 0px;
+    border: 1px solid #dddddd;
 }
 
 textarea {
   width: 100%;
   height: 120px;
   margin: 10px 0px;
+  border: 1px solid #dddddd;
 }
 
 .submit-btn {
@@ -37,4 +39,17 @@ label {
   font-family: 'Arial', sans-serif;
   font-size: 14px;
 
+}
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 980px) {
+  .contact-me {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-me {
+    width: 100%;
+  }
 }
